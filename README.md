@@ -12,6 +12,7 @@ This is a mapping that parse any of the following standards to RIF and from RIF 
 * SPIN SPARQL
 * RuleML
 * SWRL
+* Datalog?
 
 ## Supported Notations
 
