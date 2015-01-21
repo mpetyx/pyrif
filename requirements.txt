@@ -1,6 +1,6 @@
 http://cheeseshop.python.org/packages/source/p/pyparsing/pyparsing-1.5.5.tar.gz
 https://fuxi.googlecode.com/hg/layercake-python.tar.bz2
-https://pypi.python.org/packages/source/F/FuXi/FuXi-1.4.1.production.tar.gz
 -i http://pypi.zepheira.com/releases/index Amara
-
-
+https://github.com/RDFLib/FuXi/archive/master.zip
+rdflib==4.1.2
+https://github.com/RDFLib/rdflib-jsonld/archive/master.zip

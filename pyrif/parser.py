@@ -48,5 +48,5 @@ from pprint import pprint
 rif_document = 'http://www.w3.org/2005/rules/test/repository/tc/Frames/Frames-premise.rif'
 rif_parser = RIFCoreParser(location=rif_document,debug=True)
 print "yolo\n\n\n"
-# rs = rif_parser.getRuleset()
-# pprint(rs)
+rs = rif_parser.getRuleset()
+pprint(rs)
