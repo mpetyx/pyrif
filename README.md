@@ -19,3 +19,18 @@ This is a mapping that parse any of the following standards to RIF and from RIF 
 * RDF/XML
 * JSON-LD
 * rdflib supported formats
+
+# Behavior-Driven Development  (BDD)
+
+This library was developed based on the BDD paradigm and a super cool library implementing just that:
+http://lettuce.it/index.html
+
+To run the BDD tests, run 
+
+$ lettuce tests/
+
+# UnitTests
+
+Run them all by simple, run
+
+$ nosetests

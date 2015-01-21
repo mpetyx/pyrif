@@ -1,0 +1,100 @@
+# RIF focus is _:n0
+# 98 triples
+_:n3 <http://www.w3.org/2007/rif#varname> "Customer" .
+_:n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Var> .
+_:n2 <http://www.w3.org/2007/rif#vars>  ( _:n3 )  .
+_:n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Forall> .
+_:n6 <http://www.w3.org/2007/rif#varname> "Customer" .
+_:n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Var> .
+_:n5 <http://www.w3.org/2007/rif#object> _:n6 .
+_:n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n8 <http://www.w3.org/2007/rif#constIRI> "http://example.org/example#status"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n9 <http://www.w3.org/2007/rif#value> "gold"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Slot> .
+_:n7 <http://www.w3.org/2007/rif#slotkey> _:n8 .
+_:n7 <http://www.w3.org/2007/rif#slotvalue> _:n9 .
+_:n5 <http://www.w3.org/2007/rif#slots>  ( _:n7 )  .
+_:n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n4 <http://www.w3.org/2007/rif#if> _:n5 .
+_:n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Implies> .
+_:n11 <http://www.w3.org/2007/rif#varname> "Customer" .
+_:n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Var> .
+_:n10 <http://www.w3.org/2007/rif#object> _:n11 .
+_:n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n13 <http://www.w3.org/2007/rif#constIRI> "http://example.org/example#discount"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n14 <http://www.w3.org/2007/rif#value> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Slot> .
+_:n12 <http://www.w3.org/2007/rif#slotkey> _:n13 .
+_:n12 <http://www.w3.org/2007/rif#slotvalue> _:n14 .
+_:n10 <http://www.w3.org/2007/rif#slots>  ( _:n12 )  .
+_:n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n4 <http://www.w3.org/2007/rif#then> _:n10 .
+_:n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Implies> .
+_:n2 <http://www.w3.org/2007/rif#formula> _:n4 .
+_:n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Forall> .
+_:n16 <http://www.w3.org/2007/rif#varname> "Customer" .
+_:n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Var> .
+_:n15 <http://www.w3.org/2007/rif#vars>  ( _:n16 )  .
+_:n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Forall> .
+_:n19 <http://www.w3.org/2007/rif#varname> "Customer" .
+_:n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Var> .
+_:n18 <http://www.w3.org/2007/rif#object> _:n19 .
+_:n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n21 <http://www.w3.org/2007/rif#constIRI> "http://example.org/example#status"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n22 <http://www.w3.org/2007/rif#value> "silver"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Slot> .
+_:n20 <http://www.w3.org/2007/rif#slotkey> _:n21 .
+_:n20 <http://www.w3.org/2007/rif#slotvalue> _:n22 .
+_:n18 <http://www.w3.org/2007/rif#slots>  ( _:n20 )  .
+_:n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n17 <http://www.w3.org/2007/rif#if> _:n18 .
+_:n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Implies> .
+_:n24 <http://www.w3.org/2007/rif#varname> "Customer" .
+_:n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Var> .
+_:n23 <http://www.w3.org/2007/rif#object> _:n24 .
+_:n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n26 <http://www.w3.org/2007/rif#constIRI> "http://example.org/example#discount"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n27 <http://www.w3.org/2007/rif#value> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Slot> .
+_:n25 <http://www.w3.org/2007/rif#slotkey> _:n26 .
+_:n25 <http://www.w3.org/2007/rif#slotvalue> _:n27 .
+_:n23 <http://www.w3.org/2007/rif#slots>  ( _:n25 )  .
+_:n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n17 <http://www.w3.org/2007/rif#then> _:n23 .
+_:n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Implies> .
+_:n15 <http://www.w3.org/2007/rif#formula> _:n17 .
+_:n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Forall> .
+_:n29 <http://www.w3.org/2007/rif#constIRI> "http://example.org/example#customer017"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n28 <http://www.w3.org/2007/rif#object> _:n29 .
+_:n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n31 <http://www.w3.org/2007/rif#constIRI> "http://example.org/example#status"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n32 <http://www.w3.org/2007/rif#value> "gold"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Slot> .
+_:n30 <http://www.w3.org/2007/rif#slotkey> _:n31 .
+_:n30 <http://www.w3.org/2007/rif#slotvalue> _:n32 .
+_:n34 <http://www.w3.org/2007/rif#constIRI> "http://example.org/example#name"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n35 <http://www.w3.org/2007/rif#value> "John Doe"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Const> .
+_:n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Slot> .
+_:n33 <http://www.w3.org/2007/rif#slotkey> _:n34 .
+_:n33 <http://www.w3.org/2007/rif#slotvalue> _:n35 .
+_:n28 <http://www.w3.org/2007/rif#slots>  ( _:n30 _:n33 )  .
+_:n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Frame> .
+_:n1 <http://www.w3.org/2007/rif#sentences>  ( _:n2 _:n15 _:n28 )  .
+_:n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Group> .
+_:n0 <http://www.w3.org/2007/rif#payload> _:n1 .
+_:n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Document> .
+_:n0 <http://www.w3.org/2007/rif#directives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2007/rif#Document> .
